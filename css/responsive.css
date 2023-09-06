@@ -1,0 +1,249 @@
+/* css media query statr */
+
+/****
+ * screen Resulation : 279px to 379px
+ * Most of the folding mobile phone -- Galaxy Fold 
+ * 
+ * */
+
+@media (min-width: 279px) and (319px) {
+
+}
+/* css start */
+         .header .navbar-toggler{
+       background: #08c;
+       border-radius: 0px;
+   }
+   .header .navbar-toggler .fa-bars{
+   	   color: #fff;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link{
+   	   margin: 0px;
+   	   font-size: 9px;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .header .navbar-nav .nav-link.active{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .about-long p {
+    font-size: 12px;
+  }
+   .about-short p {
+    font-size: 12px;
+  } 
+ .testimonial .owl-carousel .item h4{
+    font-size: 13px;
+ }
+ .testimonial .owl-carousel .item p{
+    font-size: 11px;
+    margin: 30px 0px 0px 50px;
+ 
+ }
+ .testimonial .owl-carousel .item h6{
+    font-size: 11px;
+    margin: 0px 0px 0px 50px;
+ }
+ .testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+    margin: 30px;
+ }
+ .eye-catcher .action-buttons .btn-info{
+    margin: 12px;
+    padding: 12px 15px;
+    font-size: 13px;
+    margin: 0px 10px 0px 0px;
+ }
+ .eye-catcher .action-buttons .btn-primary{
+    margin: 12px;
+    padding: 12px 15px;
+    font-size: 13px;
+    margin: 0px 10px 0px 0px;
+ }
+ .eye-catcher h1 {
+    font-size: 23px;
+    padding: 15px;
+}
+.price-head h2{
+    font-size: 22px;
+}
+.main-price h1 {
+    font-size: 55px;
+}
+.price-box{
+    margin: 10px 0px;
+}
+.contact{
+    padding: 20px 30px;
+}
+.contact .btn-primary{
+    font-size: 11px;
+}
+/* css end */
+
+
+/****
+ * screen Resulation : 320px to 480px
+ * Most of the mobile phones
+ * 
+ * */
+
+@media (min-width: 320px) and (480px) {
+
+}
+/* css start */
+   .header .navbar-toggler{
+       background: #08c;
+       border-radius: opx;
+   }
+   .header .navbar-toggler .fa-bars{
+   	   color: #fff;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link{
+   	   margin: 0px;
+   	   font-size: 14px;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .header .navbar-nav .nav-link.active{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .title h1 {
+      font-size: 24px;
+   }
+   .about-short .title h1{
+    font-size: 30px;
+   }
+   .inner-feature h4 {
+     font-size: 18px;
+   }
+   .about-long ul {
+     padding: 0px;
+     margin: 0px 0px 0px;
+   }
+   .title h4{
+     margin: -50px;
+     padding: 50px;
+     font-size: 14px;
+   } 
+   .eye-catcher h1 {
+     font-size: 24px;
+   }
+  
+   .banner{
+   	  padding: 30px 0px;
+   }
+   .banner h4{
+   	   font-size: 12px;
+   }
+   .banner h1{
+   	   font-size: 28px;
+   }
+   .banner p{
+   	   font-size: 11px;
+   }
+   .banner .action-buttons{
+   	   padding: 20px 0px 0px 0px;
+   }
+   .banner .action-buttons .btn-primary{
+   	   padding: 12px 15px;
+   	   font-size: 13px;
+   	   margin: 0px 10px 0px 0px;;
+   }
+   .banner .action-buttons .btn-info{
+   	   padding: 12px 15px;
+   	   font-size: 13px;
+   }
+   .container{
+      padding: 61px;
+   }
+/* css end */
+}
+
+/****
+ * screen Resulation : 320px to 480px
+ * Most of the mobile phones & Low Resulations Tab
+ * 
+ * */
+
+@media (min-width: 481px) and (767px) {
+
+}
+/* css start */
+    .header .navbar-toggler{
+       background: #08c;
+       border-radius: opx;
+   }
+   .header .navbar-toggler .fa-bars{
+   	   color: #fff;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link{
+   	   margin: 0px;
+   	   font-size: 14px;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .header .navbar-nav .nav-link.active{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .banner{
+   	   padding: 30px 0px;
+   }
+   .banner h4{
+   	   font-size: 12px;
+   }
+   .banner h1{
+   	   font-size: 30px;
+   }
+   .banner p{
+   	   font-size: 13px;
+   }
+   .banner .action-buttons{
+   	   padding: 20px 0px 0px 0px;
+   }
+   .banner .action-buttons .btn-primary{
+   	   padding: 12px 15px;
+   	   font-size: 13px;
+   	   margin: 0px 10px 0px 0px;;
+   }
+   .banner .action-buttons .btn-info{
+   	   padding: 12px 15px;
+   	   font-size: 13px;
+   }
+/* css end */
+}
+
+/****
+ * screen Resulation : 320px to 480px
+ * Most of the Tablets, Notebooks, ipads
+ * 
+ * */
+
+@media (min-width: 768px) and (1024px) {
+
+}
+/* css start */
+     .header .navbar-toggler{
+       background: #08c;
+       border-radius: opx;
+   }
+   .header .navbar-toggler .fa-bars{
+   	   color: #fff;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link{
+   	   margin: 0px;
+   	   font-size: 16px;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .header .navbar-nav .nav-link.active{
+   	   background: url(../images/line.png) left bottom no-repeat;
+   }
+   .banner{
+   	   padding: 50px 0px;
+   }
+/* css end */
+}
